@@ -3,7 +3,8 @@ import numpy as np
 from datetime import datetime
 
 # Load transaction dataset
-df = pd.read_excel("C:\DV\Sales Trends\Data\Afficionado Coffee Roasters.xlsx")
+# df = pd.read_excel("C:\DV\Sales Trends\Data\Afficionado Coffee Roasters.xlsx")
+df = pd.read_excel("Data/Afficionado Coffee Roasters.xlsx")
 
 # Check for missing or duplicate transaction IDs
 # print(df.duplicated().any())
