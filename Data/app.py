@@ -1,5 +1,5 @@
 import streamlit as st
-import seaborn as sns
+
 import plotly.express as px
 import plotly.graph_objects as go
 from feature_engineer import *
@@ -9,15 +9,15 @@ from time_demand import *
 from cross_location import *
 
 
-palette =sns.color_palette([
-    '#5C4033', #slidebar
-    '#FBFBFB', #background/main area
-    '#8D6E63', #text
-    '#C58E47',#button
-    "#8D6E63",  # medium
-    "#A1887F"  # soft brown
-])
-palette_hex = palette.as_hex()
+# palette =sns.color_palette([
+#     '#5C4033', #slidebar
+#     '#FBFBFB', #background/main area
+#     '#8D6E63', #text
+#     '#C58E47',#button
+#     "#8D6E63",  # medium
+#     "#A1887F"  # soft brown
+# ])
+# palette_hex = palette.as_hex()
 
 #Title
 st.set_page_config(page_title="Afficionado Coffee Dashboard",page_icon=":coffee:",layout='wide')
