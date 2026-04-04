@@ -32,7 +32,7 @@ def interpret_behaviour(df):
     if weekend['revenue'] > weekday['revenue']:
         insights.append("Revenue -> Weekend has higher revenue -> leisure day")
     else:
-        insights.append("Revenue -> Weekday has hight revenue -> workday")
+        insights.append("Revenue -> Weekday has high revenue -> workday")
     if weekend['transaction_id'] > weekday['transaction_id']:
         insights.append("Transaction id -> Customer spend more per order -> weekend")
     else:

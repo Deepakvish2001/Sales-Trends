@@ -39,4 +39,3 @@ def get_peak(df):
 
 insight = get_peak(df)
 print(insight)
-
